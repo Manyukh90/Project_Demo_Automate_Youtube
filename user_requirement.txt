@@ -1,0 +1,28 @@
+***** Requirement *********
+
+Testcase: ทำตัวอย่างการเข้าหน้าเว็บ Youtube เพื่อค้นหาเพลง  Baby Shark
+  
+Workflow: 
+	ok เปิด web browser ขึ้นมาและเข้าหน้าเว็บ https://www.Youtube.com/
+	ok ค้นหาเพลง Baby Shark  ที่ช่อง ‘search’ 
+	do กดเล่นเพลงที่ได้ทำการค้นหา
+	do เข้าไปหน้าประวัติเพื่อดูเพลงที่เล่น
+
+Tools: สามารถใช้ software ที่เป็นเครื่องมือทำ automate test ได้ตามความถนัด เช่น Playwright, Selenium, Robot เป็นต้น
+
+Expected Result:
+สามารถค้นหาเพลง Baby Shark และกดเพื่อเล่นคลิปวีดีโอที่ค้นหาได้
+มีกลไกในการตรวจสอบเพลงที่ได้ค้นหา
+
+
+Nice to have:
+สร้าง Configuration สำหรับบันทึก keyword ในการค้นหาเพลงที่ต้องการเป็น text file หรือ Excel file หรือ JSON file
+สามารถเลือกค้นหาได้หลายๆเพลง
+มีการออกแบบโปรแกรมให้สามารถ reuse ได้ง่าย หรือพัฒนาแบบ component
+
+How to complete this assignment
+	Code ตามภาษาที่ใช้เขียน
+	อัดวีดีโอสอนวิธีการ run code / วิธีใช้งาน และ run code
+
+
+
